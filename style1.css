@@ -16,26 +16,11 @@ body {
 	/*background: url("http://www.gomakos.org/pics/bottom_bg.jpg");*/
 }
 
-label {
-	display: block;
-	color: black;
-	margin-bottom: 4em;
-}
-
-button {
-	display: block;
-	font-size: 1.5em;
-}
-
 footer {
 	text-align: center;
 	border-radius: 1em;
 	background: radial-gradient(#252525, rgba(150,150,150,0.7));
 	padding: 1em;
-}
-
-footer::before {
-	content: url("rubiks-cube.svg");
 }
 
 footer::after {
