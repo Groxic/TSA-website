@@ -1,0 +1,94 @@
+#intro {
+	font-size:50px;
+}
+#intro:hover {
+	text-decoration:none;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-color: #77BEFB;
+	background: url("http://www.gomakos.org/pics/body_bg_center.jpg");
+	/*background: url("http://www.gomakos.org/pics/bottom_bg.jpg");*/
+}
+
+label {
+	display: block;
+	color: black;
+	margin-bottom: 4em;
+}
+
+button {
+	display: block;
+	font-size: 1.5em;
+}
+
+footer {
+	text-align: center;
+	border-radius: 1em;
+	background: radial-gradient(#252525, rgba(150,150,150,0.7));
+	padding: 1em;
+}
+
+footer::before {
+	content: url("rubiks-cube.svg");
+}
+
+footer::after {
+	content: url("http://jigsaw.w3.org/css-validator/images/vcss");
+}
+
+#validated {
+	text-align: center;
+}
+
+article {
+	text-align: center;
+	margin: 1em;
+	color: white;
+}
+
+p a {
+	color: red;
+}
+
+p a:hover {
+	color: red;
+}
+
+img.displayed {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.std-well-cent {
+	width: 75%;
+	background-color: #222222;
+	background: radial-gradient(#666666, #2f2f2f);
+	border-width: 5px;
+	border-radius: 20px;
+	border-color: #333333;
+	border-style: groove;
+	padding: 1.5em;
+	text-align: center;
+	color: white;
+}
+
+.std-well-just {
+	width: 75%;
+	background-color: #222222;
+	background: radial-gradient(#666666, #2f2f2f);
+	border-width: 5px;
+	border-radius: 20px;
+	border-color: #333333;
+	border-style: groove;
+	padding: 1.5em;
+	text-align: justify;
+	color: white;
+}
