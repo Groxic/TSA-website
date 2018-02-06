@@ -5,9 +5,9 @@ var l=''; // directory prefix
 //if(!check) { //does this document have a specific element that makes it a doc not in a sub-folder of the main project folder?
 //	l='../';
 //}
-document.write('<h1><a id="intro" href="'+l+'website.html" class="d-block p-3 text-center text-white bg-danger b4b">Avalon</a></h1>');
+document.write('<h1><a id="intro" href="'+l+'home.html" class="d-block p-3 text-center text-white bg-danger b4b">Avalon</a></h1>');
 document.write('<header><nav class="navbar navbar-toggleable-md navbar-light bg-faded bd-navbar container w-100">');
-// document.write('<a class="navbar-brand" href="'+l+'website.html">Home</a>');
+// document.write('<a class="navbar-brand" href="'+l+'home.html">Home</a>');
 document.write('<a class="navbar-brand" href="'+l+'avalon.html">Avalon</a>');
 document.write('<a class="navbar-brand" href="'+l+'about_mast.html">About MAST</a>');
 document.write('<a class="navbar-brand" href="'+l+'about_tsa.html">About TSA</a>');
