@@ -6,11 +6,12 @@ document.write('<header class="sticky-top"><nav class="navbar navbar-light" id="
 document.write('<a class="navbar-brand" href="'+l+'avalon.html">Avalon</a>');
 document.write('<a class="navbar-brand" href="'+l+'about_mast.html">About MAST</a>');
 document.write('<a class="navbar-brand" href="'+l+'about_tsa.html">About TSA</a>');
-document.write('<a class="navbar-brand" href="'+l+'about_avalon.html">About Us</a>');
+document.write('<a class="navbar-brand" href="'+l+'about_us.html">About Us</a>');
 document.write('</nav></header>');
 
 window.onscroll = function() {myFunction()};
 
+// add jQuery fade-in to menu
 function myFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
 	document.getElementById("nav_menu").className = "navbar navbar-light bg-bar";

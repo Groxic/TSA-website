@@ -23,7 +23,8 @@
 }
 
 .bg-bar {
-	background: url("images/bg-bar.jpg");
+	/* background: url("images/bg-bar.jpg"); */
+	background-color:#dc3545;
     background-size: cover;
 }
 
@@ -45,9 +46,10 @@ body {
 
 footer {
 	text-align: center;
-	border-radius: 1em;
-	background: radial-gradient(#252525, rgba(150,150,150,0.7));
+	width: 100%;
+	background: radial-gradient(#252525, rgba(150,150,150,0.9));
 	padding: 1em;
+	margin: 0px;
 }
 
 footer::after {
@@ -64,11 +66,11 @@ article {
 	color: white;
 }
 
-p a {
+a {
 	color: red;
 }
 
-p a:hover {
+a:hover {
 	color: red;
 }
 
@@ -80,7 +82,7 @@ img.displayed {
 }
 
 .std-well-cent {
-	width: 75%;
+	width: 85%;
 	background-color: #222222;
 	background: radial-gradient(#666666, #2f2f2f);
 	border-width: 5px;
@@ -93,7 +95,7 @@ img.displayed {
 }
 
 .std-well-just {
-	width: 75%;
+	width: 85%;
 	background-color: #222222;
 	background: radial-gradient(#666666, #2f2f2f);
 	border-width: 5px;
